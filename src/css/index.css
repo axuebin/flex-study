@@ -1,0 +1,15 @@
+@import '~antd/dist/antd.css';
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+#example {
+  width: 80%;
+  height: 80%;
+}

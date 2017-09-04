@@ -1,0 +1,100 @@
+[{
+  "name": "flexDirection",
+  "label": "flex-direction",
+  "type": "radio",
+  "options": [{
+    "value": "row",
+    "desc": "flex容器的主轴被定义为与文本方向相同。 主轴起点和主轴终点与内容方向相同。"
+  }, {
+    "value": "row-reverse",
+    "desc": "表现和row相同，但是置换了主轴起点和主轴终点。"
+  }, {
+    "value": "column",
+    "desc": "flex容器的主轴和块轴相同。主轴起点与主轴终点和书写模式的前后点相同。"
+  }, {
+    "value": "column-reverse",
+    "desc": "表现和column相同，但是置换了主轴起点和主轴终点。"
+  }],
+  "desc": "flex-direction 属性指定了内部元素是如何在 flex 容器中布局的，定义了主轴的方向(正方向或反方向)。"
+}, {
+  "name": "justifyContent",
+  "label": "justify-content",
+  "type": "radio",
+  "options": [{
+    "value": "flex-start",
+    "desc": "默认值，从行首开始排列。每行第一个弹性元素与行首对齐，同时所有后续的弹性元素与前一个对齐。"
+  }, {
+    "value": "flex-end",
+    "desc": "从行尾开始排列。每行最后一个弹性元素与行尾对齐，其他元素将与后一个对齐。"
+  }, {
+    "value": "center",
+    "desc": "伸缩元素向每行中点排列。每行第一个元素到行首的距离将与每行最后一个元素到行尾的距离相同。"
+  }, {
+    "value": "space-between",
+    "desc": "在每行上均匀分配弹性元素。相邻元素间距离相同。每行第一个元素与行首对齐，每行最后一个元素与行尾对齐。"
+  }, {
+    "value": "space-around",
+    "desc": "在每行上均匀分配弹性元素。相邻元素间距离相同。每行第一个元素到行首的距离和每行最后一个元素到行尾的距离将会是相邻元素之间距离的一半。"
+  }],
+  "desc": "justify-content 属性定义了浏览器如何分配顺着父容器主轴的弹性元素之间及其周围的空间。"
+}, {
+  "name": "flexWrap",
+  "label": "flex-wrap",
+  "type": "radio",
+  "options": [{
+    "value": "nowrap",
+    "desc": "flex 的元素被摆放到到一行，这可能导致溢出 flex 容器。"
+  }, {
+    "value": "wrap",
+    "desc": "flex 元素 被打断到多个行中。cross-start 会根据 flex-direction 的值选择等于start 或before。cross-end 为确定的 cross-start 的另一端。"
+  }, {
+    "value": "wrap-reverse",
+    "desc": "和 wrap 的行为一样，但是 cross-start 和 cross-end 互换。"
+  }],
+  "desc": "flex-wrap 指定 flex 元素单行显示还是多行显示 。如果允许换行，这个属性允许你控制行的堆叠方向。"
+}, {
+  "name": "alignItems",
+  "label": "align-items",
+  "type": "radio",
+  "options": [{
+    "value": "flex-start",
+    "desc": "伸缩项目在侧轴起点边的外边距紧靠住该行在侧轴起始的边。"
+  }, {
+    "value": "flex-end",
+    "desc": "伸缩项目在侧轴终点边的外边距靠住该行在侧轴终点的边。"
+  }, {
+    "value": "center",
+    "desc": "伸缩项目的外边距盒在该行的侧轴上居中放置。"
+  }, {
+    "value": "baseline",
+    "desc": "所有元素向基线对齐。侧轴起点到元素基线距离最大的元素将会于侧轴起点对齐以确定基线。"
+  }, {
+    "value": "stretch",
+    "desc": "弹性元素被在侧轴方向被拉伸到与容器相同的高度或宽度。"
+  }],
+  "desc": "align-items 属性以与justify-content相同的方式在侧轴方向上将当前行上的弹性元素对齐。"
+}, {
+  "name": "alignContent",
+  "label": "align-contents",
+  "type": "radio",
+  "options": [{
+    "value": "flex-start",
+    "desc": "所有行从垂直轴起点开始填充。第一行的垂直轴起点边和容器的垂直轴起点边对齐。接下来的每一行紧跟前一行。"
+  }, {
+    "value": "flex-end",
+    "desc": "所有行从垂直轴末尾开始填充。最后一行的垂直轴终点和容器的垂直轴终点对齐。同时所有后续行与前一个对齐。"
+  }, {
+    "value": "center",
+    "desc": "所有行朝向容器的中心填充。每行互相紧挨，相对于容器居中对齐。容器的垂直轴起点边和第一行的距离相等于容器的垂直轴终点边和最后一行的距离。"
+  }, {
+    "value": "space-between",
+    "desc": "所有行在容器中平均分布。相邻两行间距相等。容器的垂直轴起点边和终点边分别与第一行和最后一行的边对齐。"
+  }, {
+    "value": "space-around",
+    "desc": "所有行在容器中平均分布，相邻两行间距相等。容器的垂直轴起点边和终点边分别与第一行和最后一行的距离是相邻两行间距的一半。"
+  }, {
+    "value": "stretch",
+    "desc": "拉伸所有行来填满剩余空间。剩余空间平均的分配给每一行。"
+  }],
+  "desc": "align-content 属性定义了当作为一个弹性盒子容器的属性时，浏览器如何在容器的侧轴围绕弹性盒子项目分配空间。"
+}]

@@ -1,0 +1,70 @@
+.container{
+  margin-bottom: 100px;
+}
+
+.flex-box-area{
+  min-height: 100%;
+  height: auto;
+  margin-right: 10px;
+  padding:10px;
+  background-color: rgb(200, 200, 200);
+}
+
+.flex-box-control{
+  position: fixed;
+  top:100px;
+  left:0px;
+}
+
+.flex-box-control button{
+  display: block;
+  margin-bottom:10px;
+}
+
+.box{
+  width:100px;
+  height:100px;
+  margin: 5px;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+  background-color: #FF3300;
+}
+
+.flex-control-area{
+  height: 100%;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: rgb(200,200,200);
+}
+
+.ant-form-item{
+  margin-bottom: 0px;
+}
+
+.flex-control-area label{
+  font-size: 16px;
+}
+
+.flex-control-area span{
+  font-size: 14px;
+}
+
+
+.flex-desc-area{
+  height: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: rgb(200,200,200);
+}
+
+.flex-desc-prop{
+  height: 50%;
+  background-color: rgb(200,200,200);
+}
+
+.flex-desc-option{
+  height: 50%;
+  background-color: rgb(200,200,200);
+}
